@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+    <li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+    <div class="hero-unit">
+        <h1>Europython 2013!</h1>
+        <br />
+        <p>
+            This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+        </p>
+        <br />
+        <p>
+            <a href="http://fabfile.org/‎" class="btn btn-primary btn-large">Go to Fabric site &raquo;</a>
+        </p>
+    </div>
+{% endblock %}
